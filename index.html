@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Calender with weather</title>
+    <link rel="shortcut icon" href="">
+    <link rel="stylesheet" href="./main.css">
+
+    <!--    <script src="./jquery.min.js"></script>-->
+    <script src="./angular.min.js"></script>
+
+</head>
+
+<body ng-app="myApp" ng-controller="init">
+
+    <div class="row "  id="today" ng-controller="myCtrl">
+        <div id="prev" class="col-3 button" ng-click="prev()"><a href="#" ><</a></div>
+        <div class="col-6 today">{{date | date:'MMMM, yyyy'}}</div>
+        <div id="next" ng-click="next()" class="col-3 button"><a href="#" >></a></div>
+
+    </div>
+    <br/>
+    <div class="row drow" id="days">
+
+        
+        <div class="day col-c">Mon</div>
+        <div class="day col-c">Tue</div>
+        <div class="day col-c">Wed</div>
+        <div class="day col-c">Thu</div>
+        <div class="day col-c">Fri</div>
+        <div class="day col-c">Sat</div>
+        <div class="day col-c">Sun</div>
+    </div>
+
+    <br/>
+    <div class="row">
+        <div class="row" class="week" ng-repeat="w in war">
+            <div class="day col-c" class="week" ng-repeat="day in days[w]">{{day}}</div>
+
+        </div>
+    </div>
+    <script src="./cl.js"></script>
+</body>
+
+</html>

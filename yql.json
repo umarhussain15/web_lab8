@@ -1,0 +1,104 @@
+{
+    "query": {
+        "count": 1,
+        "created": "2015-11-17T09:11:21Z",
+        "lang": "en-US",
+        "results": {
+            "channel": {
+                "title": "Yahoo! Weather - Islamabad, PK",
+                "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Islamabad__PK/*http://weather.yahoo.com/forecast/PKXX0006_f.html",
+                "description": "Yahoo! Weather for Islamabad, PK",
+                "language": "en-us",
+                "lastBuildDate": "Tue, 17 Nov 2015 1:31 pm PKT",
+                "ttl": "60",
+                "location": {
+                    "city": "Islamabad",
+                    "country": "Pakistan",
+                    "region": ""
+                },
+                "units": {
+                    "distance": "mi",
+                    "pressure": "in",
+                    "speed": "mph",
+                    "temperature": "F"
+                },
+                "wind": {
+                    "chill": "75",
+                    "direction": "270",
+                    "speed": "7"
+                },
+                "atmosphere": {
+                    "humidity": "38",
+                    "pressure": "30",
+                    "rising": "0",
+                    "visibility": "3.11"
+                },
+                "astronomy": {
+                    "sunrise": "6:41 am",
+                    "sunset": "5:04 pm"
+                },
+                "image": {
+                    "title": "Yahoo! Weather",
+                    "width": "142",
+                    "height": "18",
+                    "link": "http://weather.yahoo.com",
+                    "url": "http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif"
+                },
+                "item": {
+                    "title": "Conditions for Islamabad, PK at 1:31 pm PKT",
+                    "lat": "33.71",
+                    "long": "73.08",
+                    "link": "http://us.rd.yahoo.com/dailynews/rss/weather/Islamabad__PK/*http://weather.yahoo.com/forecast/PKXX0006_f.html",
+                    "pubDate": "Tue, 17 Nov 2015 1:31 pm PKT",
+                    "condition": {
+                        "code": "21",
+                        "date": "Tue, 17 Nov 2015 1:31 pm PKT",
+                        "temp": "75",
+                        "text": "Haze"
+                    },
+                    "description": "\n<img src=\"http://l.yimg.com/a/i/us/we/52/21.gif\"/><br />\n<b>Current Conditions:</b><br />\nHaze, 75 F<BR />\n<BR /><b>Forecast:</b><BR />\nTue - Sunny. High: 74 Low: 50<br />\nWed - Mostly Sunny. High: 77 Low: 52<br />\nThu - Mostly Sunny. High: 77 Low: 53<br />\nFri - Partly Cloudy. High: 77 Low: 51<br />\nSat - Partly Cloudy. High: 76 Low: 52<br />\n<br />\n<a href=\"http://us.rd.yahoo.com/dailynews/rss/weather/Islamabad__PK/*http://weather.yahoo.com/forecast/PKXX0006_f.html\">Full Forecast at Yahoo! Weather</a><BR/><BR/>\n(provided by <a href=\"http://www.weather.com\" >The Weather Channel</a>)<br/>\n",
+                    "forecast": [{
+                        "code": "32",
+                        "date": "17 Nov 2015",
+                        "day": "Tue",
+                        "high": "74",
+                        "low": "50",
+                        "text": "Sunny"
+                    }, {
+                        "code": "34",
+                        "date": "18 Nov 2015",
+                        "day": "Wed",
+                        "high": "77",
+                        "low": "52",
+                        "text": "Mostly Sunny"
+                    }, {
+                        "code": "34",
+                        "date": "19 Nov 2015",
+                        "day": "Thu",
+                        "high": "77",
+                        "low": "53",
+                        "text": "Mostly Sunny"
+                    }, {
+                        "code": "30",
+                        "date": "20 Nov 2015",
+                        "day": "Fri",
+                        "high": "77",
+                        "low": "51",
+                        "text": "Partly Cloudy"
+                    }, {
+                        "code": "30",
+                        "date": "21 Nov 2015",
+                        "day": "Sat",
+                        "high": "76",
+                        "low": "52",
+                        "text": "Partly Cloudy"
+                    }],
+                    "guid": {
+                        "isPermaLink": "false",
+                        "content": "PKXX0006_2015_11_21_7_00_PKT"
+                    }
+                }
+            }
+        }
+    }
+}
